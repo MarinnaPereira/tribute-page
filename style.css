@@ -1,0 +1,102 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  background-color: bisque;
+  font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+  color: rgb(17, 30, 77);
+}
+
+body {
+  overflow-x: hidden;
+}
+
+header {
+  text-align: center;
+  margin-top: 1.5vh;
+  margin-bottom: 2vh;
+  height: 7vh;
+}
+
+main {
+  width: 100vw;
+}
+
+#hero-img {
+  display: block;
+  width: 100vw;
+  height: 91vh;
+  object-fit: cover;
+  border-top: 5px solid rgb(216, 160, 16);
+  border-bottom: 5px solid rgb(216, 160, 16);
+}
+
+section {
+  padding: 10vh 20vh;
+}
+
+h2 {
+  text-align: center;
+  padding-bottom: 4vh;
+  font-size: xx-large;
+}
+
+#div-author,
+#work-adaptations,
+#movie-2000 {
+  border: 3px solid rgb(216, 160, 16);
+  border-radius: 8px;
+  padding: 3% 4%;
+}
+
+#div-author {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+#suassuna-img,
+#book,
+#poster {
+  width: 50%;
+  border: 5px solid rgb(17, 30, 77);
+  border-radius: 12px;
+  margin: auto;
+  object-fit: cover;
+}
+
+#book,
+#poster {
+  display: block;
+  width: 20%;
+  margin-bottom: 3vh;
+}
+
+#div-author p {
+  text-align: justify;
+  padding: 10%;
+}
+
+#work-adaptations p,
+#movie-2000 h3 {
+  padding-bottom: 1vh;
+}
+
+#footer {
+  height: 8vh;
+  background-color: rgb(17, 30, 77);
+  text-align: center;
+  padding-top: 1.5vw;
+}
+
+a {
+  color: aliceblue;
+  font-weight: bold;
+  font-size: large;
+  background-color: rgb(17, 30, 77);
+}
+
+a:hover {
+  color: rgb(216, 160, 16);
+  font-size: largeR;
+}
